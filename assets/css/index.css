@@ -760,4 +760,10 @@
 	flex-direction:column;
 	border:none;
 }
+.cards2 .image{
+	text-align:center;
+}
+.cards2 .text{
+	text-align:center;
+}
 }
