@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+	flex-direction:column;
+}
+footer{
+	position:relative;
+	width:100%;
+	height:auto;
+	padding:50px 130px;
+	background:#B0CB1F;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+}
+footer .footer{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	flex-direction:row;
+}
+footer .footer .sec.aboutus{
+	width: 40%;
+	text-align: justify;
+}
+footer .footer .sec.aboutus img{
+	width:35%;
+}
+footer .footer .sec.aboutus p{
+	color:#fff;
+	line-height:24px;
+}
+footer .footer .sec.quicklinks{
+	position:relative;
+	width:25%;
+}
+footer .footer .sec.quicklinks ul li{
+	list-style:none;
+}
+footer .footer .sec.quicklinks ul li a{
+	color:#fff;
+	text-decoration:none;
+	margin-bottom:10px;
+	display:inline-block;
+}
+.sci{
+	margin-top:20px;
+	display:flex;
+}
+.sci li{
+	list-style:none;
+}
+.sci li a{
+	display:inline-block;
+	width:40%;
+	height:40%;
+	color:#fff;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-right:10px;
+	text-decoration:none;
+}
+.contact{
+	width: calc(35% -60px);
+	margin-right: 0 !important;
+}
+.contact h2{
+	color:#fff;
+}
+.contact .info li{
+	display:flex;
+}
+.contact .info li span:nth-child(1){
+	color:#fff;
+	margin-right:10px;
+}
+.contact .info li span{
+	color:#fff;
+}
+.contact .info li p{
+	color:#fff;
+	line-height:24px;
+}
+.contact .info li a{
+	color:#fff;
+	text-decoration:none;
+}
+
+@media (max-width: 991px)
+{
+	footer{
+		padding : 30px;
+	}
+	footer .footer{
+		flex-direction:column;
+	}
+	footer .footer .sec{
+		margin-right:0;
+		margin-bottom:20px;
+	}
+	footer .footer .sec.aboutus,
+	.quicklinks,
+	.contact
+	{
+		width:100%;
+	}
+	footer .footer .sec.aboutus img{
+	width:45%;
+}
+footer .footer .sec.aboutus p{
+	color:#fff;
+	line-height:16px;
+	font-size:12px;
+}
+footer .footer .sec.quicklinks ul li a{
+	color:#fff;
+	text-decoration:none;
+	margin-bottom:10px;
+	display:inline-block;
+	font-size:12px;
+}
+.contact h2{
+	color:#fff;
+	font-size:16px;
+}
+.contact .info li p{
+	color:#fff;
+	line-height:16px;
+	font-size:12px;
+}
+.contact .info li span{
+	color:#fff;
+	font-size:12px;
+}
+
+}
+
+
