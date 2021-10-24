@@ -95,6 +95,102 @@ footer .footer .sec.quicklinks ul li a{
 	text-decoration:none;
 }
 
+@media screen and (min-width: 2000px){
+	
+footer{
+	position:relative;
+	width:100%;
+	height:auto;
+	padding:50px 130px;
+	background:#B0CB1F;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+}
+footer .footer{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	flex-direction:row;
+}
+footer .footer .sec.aboutus{
+	width: 40%;
+	text-align: justify;
+}
+footer .footer .sec.aboutus img{
+	width:40%;
+}
+footer .footer .sec.aboutus p{
+	color:#fff;
+	line-height:40px;
+	font-size:30px;
+}
+footer .footer .sec.quicklinks{
+	position:relative;
+	width:35%;
+}
+footer .footer .sec.quicklinks ul li{
+	list-style:none;
+}
+footer .footer .sec.quicklinks ul li a{
+	color:#fff;
+	text-decoration:none;
+	margin-bottom:10px;
+	display:inline-block;
+	font-size:30px;
+}
+.sci{
+	margin-top:20px;
+	display:flex;
+}
+.sci li{
+	list-style:none;
+}
+.sci li a{
+	display:inline-block;
+	width:40%;
+	height:40%;
+	color:#fff;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-right:10px;
+	text-decoration:none;
+	font-size:30px;
+}
+.contact{
+	width: calc(35% -60px);
+	margin-right: 0 !important;
+}
+.contact h2{
+	color:#fff;
+	font-size:40px;
+}
+.contact .info li{
+	display:flex;
+}
+.contact .info li span:nth-child(1){
+	color:#fff;
+	margin-right:10px;
+}
+.contact .info li span{
+	color:#fff;
+	font-size:30px;
+}
+.contact .info li p{
+	color:#fff;
+	line-height:40px;
+	font-size:30px;
+}
+.contact .info li a{
+	color:#fff;
+	text-decoration:none;
+	font-size:30px;
+}
+}
+
+
+
 @media (max-width: 991px)
 {
 	footer{
