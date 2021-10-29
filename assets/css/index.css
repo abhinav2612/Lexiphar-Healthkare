@@ -392,13 +392,13 @@
 	border:none;
 }
 .container6 .cards2 .image img{
-	width:60%;
+	width:100%;
 }
 
 .container6 .cards2 .text h3{
 	padding:8px;
 	color:#000;
-	text-align:justify;
+	text-align:center;
 	font-family: 'Playfair Display', serif;
 	letter-spacing:1.3px;
 	font-size:24px;
@@ -869,7 +869,7 @@
 	border:none;
 }
 .container6 .cards2 .image img{
-	width:60%;
+	width:100%;
 }
 
 .container6 .cards2 .text h3{
@@ -892,7 +892,7 @@
 	flex-direction:row;
 	width:84%;
 	height:74%;
-	margin-top:10%;
+	margin-top:18%;
 }
 .container7 .leftblog{
 	width:48%;
@@ -1301,7 +1301,7 @@
 }
 .container6 .cards2{
 	width:80%;
-	height:300px;
+	height:auto;
 	background-color:#fff;
 	margin-top:5%;
 	margin-left:8%;
