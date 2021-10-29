@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 *{
 	margin:0;
 	padding:0;
@@ -67,6 +67,7 @@
 
 .banner-text .main-header{
 	font-family: 'Playfair Display', serif;
+	font-style:italic;
 	color:#fff;
 	font-size:42px;
 	margin-left:10%;
@@ -97,6 +98,7 @@
 	color:#fff;
 	font-weight:bold;
 	font-size:44px;
+	letter-spacing:2px;
 }
 .container .content .p{
 	margin-left:10%;
@@ -136,6 +138,7 @@
 	font-weight:bold;
 	font-size:44px;
 	margin-top:180px;
+	letter-spacing:2px;
 }
 .why .left .pleft{
 	color:#000;
@@ -280,7 +283,7 @@
 }
 .why .why-img{
 	width:47%;
-	height:700px;
+	height:930px;
 	float: right;
 }
 .why .left{
@@ -307,7 +310,7 @@
 }
 
 .para{
-	margin-top:10%;
+	margin-top:18%;
 	text-align:center;
 	font-size:40px;
 	line-height:50px;
