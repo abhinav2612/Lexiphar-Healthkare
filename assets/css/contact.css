@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
 *{
 	margin:0;
 	padding:0;
@@ -103,10 +103,14 @@ iframe{
   float:right;
 }
 
-.contact-info i{
+.contact-info .para i{
   margin-right: 20px;
   font-size: 20px;
   color:#005392;
+}
+.contact-info .para p{
+  font-size:20px;
+  line-height:30px;
 }
 
 .contact-form{
@@ -120,7 +124,7 @@ iframe{
 }
 
 
-.contact-form .text-box{
+.contact-form form .text-box{
   background: #e5e4e2;
   color: #000;
   border: none;
@@ -141,7 +145,7 @@ iframe{
 }
 
 
-.contact-form textarea{
+.contact-form form textarea{
   background: #e5e4e2;
   color: #000;
   border: none;
@@ -156,7 +160,7 @@ iframe{
   opacity: 0.9;
 }
 
-.contact-form .send-btn{
+.contact-form form .send-btn{
   float: right;
   background: #005392;
   color: #fff;
@@ -172,7 +176,7 @@ iframe{
   transition-property: background;
 }
 
-.contact-form .send-btn:hover{
+.contact-form form .send-btn:hover{
   background: #0582E3;
 }
 
@@ -215,7 +219,7 @@ iframe{
 	color:#fff;
 	padding:10px;
 	font-weight:bold;
-	font-size:24px;
+	font-size:25px;
 }
 #nav-toggle{
 	position:absolute;
@@ -240,7 +244,7 @@ iframe{
 .banner-text .main-header{
 	font-family: 'Playfair Display', serif;
 	color:#fff;
-	font-size:88px;
+	font-size:82px;
 	margin-left:10%;
 	margin-top:17%;
 }
@@ -258,7 +262,7 @@ iframe{
 }
 iframe{
 	width:100%;
-	height:600px;
+	height:400px;
 	margin-top:7%;
 }
 
@@ -269,27 +273,25 @@ iframe{
 
 .contact-info{
   color: #000;
-  max-width: 40%;
-  line-height: 30px;
-  font-size: 18px;
-  margin-left:15%;
+  max-width: 45%;
+  line-height: 40px;
+  font-size: 30px;
+  margin-left:10%;
   float:right;
 }
 
-.contact-info i{
+.contact-info .para i{
   margin-right: 20px;
-  font-size: 30px;
+  font-size: 40px;
   color:#005392;
 }
-
-.contact-info p{
-	font-size: 35px;
-	line-height:50px;
-	
+.contact-info .para p{
+  font-size:40px;
+  line-height:55px;
 }
 
 .contact-form{
-  width: 50%;
+  max-width: 45%;
   margin-right: 10%;
   float:left;
 }
@@ -299,7 +301,7 @@ iframe{
 }
 
 
-.contact-form .text-box{
+.contact-form form .text-box{
   background: #e5e4e2;
   color: #000;
   border: none;
@@ -320,7 +322,7 @@ iframe{
 }
 
 
-.contact-form textarea{
+.contact-form form textarea{
   background: #e5e4e2;
   color: #000;
   border: none;
@@ -335,13 +337,13 @@ iframe{
   opacity: 0.9;
 }
 
-.contact-form .send-btn{
+.contact-form form .send-btn{
   float: right;
   background: #005392;
   color: #fff;
   border: none;
   width: 400px;
-  height: 60px;
+  height: 65px;
   font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
@@ -351,11 +353,10 @@ iframe{
   transition-property: background;
 }
 
-.contact-form .send-btn:hover{
+.contact-form form .send-btn:hover{
   background: #0582E3;
 }
 }
-
 
 
 @media screen and (max-width: 950px){
@@ -373,7 +374,7 @@ iframe{
 	margin-top:7%;
   }
 
-	.contact-info{
+.contact-info{
   color: #000;
   max-width: 500px;
   line-height: 30px;
@@ -381,10 +382,10 @@ iframe{
   margin-left:10%;
   float:right;
 }
-  .contact-form .text-box{
+  .contact-form form .text-box{
     width: 100%;
   }
-  .contact-form .text-box{
+  .contact-form form .text-box{
   background: #e5e4e2;
   color: #000;
   border: none;
@@ -396,7 +397,7 @@ iframe{
   margin-bottom: 20px;
   opacity: 0.9;
 }
-.contact-form textarea{
+.contact-form form textarea{
   background: #e5e4e2;
   color: #000;
   border: none;
@@ -410,7 +411,7 @@ iframe{
   margin-bottom: 20px;
   opacity: 0.9;
 }
-.contact-form .send-btn{
+.contact-form form .send-btn{
   float: right;
   background: #005392;
   color: #fff;

@@ -442,8 +442,9 @@
 	.banner-text .main-header{
 	font-family: 'Playfair Display', serif;
 	color:#fff;
-	font-size:40px;
-	margin-left:10%;
+	font-size:30px;
+	margin-left:8%;
+	margin-right:8%
 	margin-top:35%;
 }
 .container{

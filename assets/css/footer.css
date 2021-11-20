@@ -94,6 +94,27 @@ footer .footer .sec.quicklinks ul li a{
 	color:#fff;
 	text-decoration:none;
 }
+.bi.bi-map-fill{
+	color:#005392;
+	font-size:20px;
+}
+.bi.bi-phone-vibrate-fill{
+	color:#005392;
+	font-size:20px;
+}
+.bi.bi-envelope-open-fill{
+	color:#005392;
+	font-size:20px;
+}
+.bi.bi-facebook{
+	font-size:25px;
+}
+.bi.bi-twitter{
+	font-size:25px;
+}
+.bi.bi-instagram{
+	font-size:25px;
+}
 
 @media screen and (min-width: 2000px){
 	
@@ -186,6 +207,27 @@ footer .footer .sec.quicklinks ul li a{
 	color:#fff;
 	text-decoration:none;
 	font-size:30px;
+}
+.bi.bi-map-fill{
+	color:#005392;
+	font-size:30px;
+}
+.bi.bi-phone-vibrate-fill{
+	color:#005392;
+	font-size:30px;
+}
+.bi.bi-envelope-open-fill{
+	color:#005392;
+	font-size:30px;
+}
+.bi.bi-facebook{
+	font-size:40px;
+}
+.bi.bi-twitter{
+	font-size:40px;
+}
+.bi.bi-instagram{
+	font-size:40px;
 }
 }
 

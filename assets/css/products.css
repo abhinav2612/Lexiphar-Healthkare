@@ -162,7 +162,7 @@
 	height:auto;
 	display:flex;
 	flex-direction:row;
-	margin-top:5%;
+	margin-top:3%;
 }
 .cards2{
 	width:22.66%;
@@ -190,7 +190,7 @@
 	letter-spacing:1.7px;
 }
 .image img{
-	width:90%;
+	width:100%;
 	padding:10px;
 	height:200px;
 }
@@ -205,6 +205,15 @@
 	text-align: justify;
 	line-height: 22px;
 	font-size:14px;
+}
+.icon{
+	float:right;
+	margin-top:2%;
+	margin-left:75%;
+}
+.icon-link{
+	color:#525252;
+	font-size:40px;
 }
 
 @media screen and (min-width: 2000px){
@@ -338,6 +347,65 @@
 	text-align:center;
 	padding:10px;
 }
+.container2{
+	background-color:#fff;
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-direction:row;
+	margin-top:5%;
+}
+.cards2{
+	width:22.66%;
+	height:80%;
+	background-color:#fff;
+	margin-top:3%;
+	margin-left:8%;
+	display:flex;
+	flex-direction:column;
+}
+.image{
+	width:100%;
+	background-color:#fff;
+	border:none;
+}
+.text{
+	width:100%;
+	height:150px;
+	background-color:#fff;
+	border:none;
+}
+.text h3{
+	font-weight:bold;
+	font-family: 'Playfair Display', serif;
+	letter-spacing:1.7px;
+}
+.image img{
+	width:90%;
+	padding:10px;
+	height:auto;
+}
+.text h3{
+	padding:5px;
+	color:#000;
+	font-size:32px;
+}
+.text p{
+	padding:5px;
+	color:#000;
+	text-align: justify;
+	line-height: 36px;
+	font-size:26px;
+}
+.icon{
+	float:right;
+	margin-top:2%;
+	margin-left:75%;
+}
+.icon-link{
+	color:#525252;
+	font-size:70px;
+}
 }
 
 
@@ -392,8 +460,9 @@
 	.banner-text .main-header{
 	font-family: 'Playfair Display', serif;
 	color:#fff;
-	font-size:35px;
-	margin-left:10%;
+	font-size:30px;
+	margin-left:8%;
+	margin-right:8%;
 	margin-top:30%;
 }
 .container3{
@@ -472,7 +541,7 @@
 }
 .cards2{
 	width:80%;
-	height:350px;
+	height:410px;
 	background-color:#000;
 	margin-top:5%;
 	margin-left:8%;
@@ -487,12 +556,26 @@
 }
 .text{
 	width:100%;
-	height:200px;
+	height:260px;
 	background-color:#fff;
 	border:none;
 	text-align:center;
 }
 .text h3{
 	font-weight:bold;
+}
+.image img{
+	width:90%;
+	padding:10px;
+	height:auto;
+}
+.icon{
+	float:right;
+	margin-top:2%;
+	margin-left:55%;
+}
+.icon-link{
+	color:#525252;
+	font-size:28px;
 }
 }
